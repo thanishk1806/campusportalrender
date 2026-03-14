@@ -6,6 +6,7 @@ com\campus\portal\dto\ComplaintDTO$RateRequest.class
 com\campus\portal\entity\Department.class
 com\campus\portal\config\DataInitializer.class
 com\campus\portal\entity\Category.class
+com\campus\portal\dto\AIStatsDTO.class
 com\campus\portal\service\NotificationService.class
 com\campus\portal\entity\RoleName.class
 com\campus\portal\dto\CommentDTO$CreateRequest.class
@@ -17,8 +18,13 @@ com\campus\portal\dto\CommentDTO.class
 com\campus\portal\dto\ComplaintDTO$Response.class
 com\campus\portal\service\AdminService.class
 com\campus\portal\entity\Notification.class
+com\campus\portal\service\AIService.class
+com\campus\portal\controller\AIController.class
 com\campus\portal\dto\ComplaintDTO$AssignRequest.class
+com\campus\portal\dto\AIStatsDTO$StaffPerformance.class
 com\campus\portal\repository\DepartmentRepository.class
+com\campus\portal\dto\AIStatsDTO$EstimationResponse.class
+com\campus\portal\dto\AuthDTO$ResetPasswordRequest.class
 com\campus\portal\service\ComplaintService.class
 com\campus\portal\repository\CategoryRepository.class
 com\campus\portal\exception\GlobalExceptionHandler.class
@@ -36,6 +42,7 @@ com\campus\portal\dto\UserDTO$DashboardStats.class
 com\campus\portal\controller\SharedController.class
 com\campus\portal\entity\ComplaintStatus.class
 com\campus\portal\dto\CommentDTO$Response.class
+com\campus\portal\dto\AIStatsDTO$DepartmentPerformance.class
 com\campus\portal\dto\ComplaintDTO$UpdateStatusRequest.class
 com\campus\portal\dto\UserDTO.class
 com\campus\portal\dto\ComplaintDTO$CreateRequest.class
@@ -44,6 +51,7 @@ com\campus\portal\security\UserDetailsServiceImpl.class
 com\campus\portal\service\AuthService.class
 com\campus\portal\dto\DepartmentDTO$Request.class
 com\campus\portal\dto\AuthDTO$RegisterRequest.class
+com\campus\portal\dto\AuthDTO$ForgotPasswordRequest.class
 com\campus\portal\dto\DepartmentDTO.class
 com\campus\portal\dto\ComplaintDTO.class
 com\campus\portal\repository\ComplaintRepository.class
