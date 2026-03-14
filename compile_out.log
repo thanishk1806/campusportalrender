@@ -1,0 +1,73 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------------< com.campus:portal >--------------------------
+[INFO] Building smart-campus-portal 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ portal ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ portal ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 40 source files with javac [debug release 17] to target\classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /C:/Users/THANISHK/OneDrive/Desktop/tt/smart-campus-portal/backend/src/main/java/com/campus/portal/controller/ComplaintController.java:[83,12] implicitly declared classes are not supported in -source 17
+  (use -source 25 or higher to enable implicitly declared classes)
+[ERROR] /C:/Users/THANISHK/OneDrive/Desktop/tt/smart-campus-portal/backend/src/main/java/com/campus/portal/controller/ComplaintController.java:[141,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/THANISHK/OneDrive/Desktop/tt/smart-campus-portal/backend/src/main/java/com/campus/portal/controller/ComplaintController.java:[1,1] compact source file should not have package declaration
+[ERROR] /C:/Users/THANISHK/OneDrive/Desktop/tt/smart-campus-portal/backend/src/main/java/com/campus/portal/controller/SharedController.java:[55,12] implicitly declared classes are not supported in -source 17
+  (use -source 25 or higher to enable implicitly declared classes)
+[ERROR] /C:/Users/THANISHK/OneDrive/Desktop/tt/smart-campus-portal/backend/src/main/java/com/campus/portal/controller/SharedController.java:[79,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/THANISHK/OneDrive/Desktop/tt/smart-campus-portal/backend/src/main/java/com/campus/portal/controller/SharedController.java:[1,1] compact source file should not have package declaration
+[ERROR] /C:/Users/THANISHK/OneDrive/Desktop/tt/smart-campus-portal/backend/src/main/java/com/campus/portal/config/SecurityConfig.java:[89,12] implicitly declared classes are not supported in -source 17
+  (use -source 25 or higher to enable implicitly declared classes)
+[ERROR] /C:/Users/THANISHK/OneDrive/Desktop/tt/smart-campus-portal/backend/src/main/java/com/campus/portal/config/SecurityConfig.java:[136,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/THANISHK/OneDrive/Desktop/tt/smart-campus-portal/backend/src/main/java/com/campus/portal/config/SecurityConfig.java:[1,1] compact source file should not have package declaration
+[ERROR] /C:/Users/THANISHK/OneDrive/Desktop/tt/smart-campus-portal/backend/src/main/java/com/campus/portal/controller/AdminController.java:[58,12] implicitly declared classes are not supported in -source 17
+  (use -source 25 or higher to enable implicitly declared classes)
+[ERROR] /C:/Users/THANISHK/OneDrive/Desktop/tt/smart-campus-portal/backend/src/main/java/com/campus/portal/controller/AdminController.java:[91,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/THANISHK/OneDrive/Desktop/tt/smart-campus-portal/backend/src/main/java/com/campus/portal/controller/AdminController.java:[1,1] compact source file should not have package declaration
+[ERROR] /C:/Users/THANISHK/OneDrive/Desktop/tt/smart-campus-portal/backend/src/main/java/com/campus/portal/service/ComplaintService.java:[178,12] implicitly declared classes are not supported in -source 17
+  (use -source 25 or higher to enable implicitly declared classes)
+[ERROR] /C:/Users/THANISHK/OneDrive/Desktop/tt/smart-campus-portal/backend/src/main/java/com/campus/portal/service/ComplaintService.java:[326,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/THANISHK/OneDrive/Desktop/tt/smart-campus-portal/backend/src/main/java/com/campus/portal/service/ComplaintService.java:[1,1] compact source file should not have package declaration
+[INFO] 15 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  9.328 s
+[INFO] Finished at: 2026-03-08T12:35:16+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile (default-compile) on project portal: Compilation failure: Compilation failure: 
+[ERROR] /C:/Users/THANISHK/OneDrive/Desktop/tt/smart-campus-portal/backend/src/main/java/com/campus/portal/controller/ComplaintController.java:[83,12] implicitly declared classes are not supported in -source 17
+[ERROR]   (use -source 25 or higher to enable implicitly declared classes)
+[ERROR] /C:/Users/THANISHK/OneDrive/Desktop/tt/smart-campus-portal/backend/src/main/java/com/campus/portal/controller/ComplaintController.java:[141,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/THANISHK/OneDrive/Desktop/tt/smart-campus-portal/backend/src/main/java/com/campus/portal/controller/ComplaintController.java:[1,1] compact source file should not have package declaration
+[ERROR] /C:/Users/THANISHK/OneDrive/Desktop/tt/smart-campus-portal/backend/src/main/java/com/campus/portal/controller/SharedController.java:[55,12] implicitly declared classes are not supported in -source 17
+[ERROR]   (use -source 25 or higher to enable implicitly declared classes)
+[ERROR] /C:/Users/THANISHK/OneDrive/Desktop/tt/smart-campus-portal/backend/src/main/java/com/campus/portal/controller/SharedController.java:[79,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/THANISHK/OneDrive/Desktop/tt/smart-campus-portal/backend/src/main/java/com/campus/portal/controller/SharedController.java:[1,1] compact source file should not have package declaration
+[ERROR] /C:/Users/THANISHK/OneDrive/Desktop/tt/smart-campus-portal/backend/src/main/java/com/campus/portal/config/SecurityConfig.java:[89,12] implicitly declared classes are not supported in -source 17
+[ERROR]   (use -source 25 or higher to enable implicitly declared classes)
+[ERROR] /C:/Users/THANISHK/OneDrive/Desktop/tt/smart-campus-portal/backend/src/main/java/com/campus/portal/config/SecurityConfig.java:[136,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/THANISHK/OneDrive/Desktop/tt/smart-campus-portal/backend/src/main/java/com/campus/portal/config/SecurityConfig.java:[1,1] compact source file should not have package declaration
+[ERROR] /C:/Users/THANISHK/OneDrive/Desktop/tt/smart-campus-portal/backend/src/main/java/com/campus/portal/controller/AdminController.java:[58,12] implicitly declared classes are not supported in -source 17
+[ERROR]   (use -source 25 or higher to enable implicitly declared classes)
+[ERROR] /C:/Users/THANISHK/OneDrive/Desktop/tt/smart-campus-portal/backend/src/main/java/com/campus/portal/controller/AdminController.java:[91,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/THANISHK/OneDrive/Desktop/tt/smart-campus-portal/backend/src/main/java/com/campus/portal/controller/AdminController.java:[1,1] compact source file should not have package declaration
+[ERROR] /C:/Users/THANISHK/OneDrive/Desktop/tt/smart-campus-portal/backend/src/main/java/com/campus/portal/service/ComplaintService.java:[178,12] implicitly declared classes are not supported in -source 17
+[ERROR]   (use -source 25 or higher to enable implicitly declared classes)
+[ERROR] /C:/Users/THANISHK/OneDrive/Desktop/tt/smart-campus-portal/backend/src/main/java/com/campus/portal/service/ComplaintService.java:[326,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/THANISHK/OneDrive/Desktop/tt/smart-campus-portal/backend/src/main/java/com/campus/portal/service/ComplaintService.java:[1,1] compact source file should not have package declaration
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
